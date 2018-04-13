@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+header {
+	font-size: 50px;
+	color: green;
+}
+
+.score-panel {
+	color: red;
+	font-size: 30px;
+}
+
+#winnerPopup {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    height: 40%;
+    width: 40%;    
+    z-index: 10;    
+    background-color: grey;
+    text-align: center;
+    font-family: helvetica;
+
+}
+
+#winnerPopup button{
+    font-size: 20px;
+}
